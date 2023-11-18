@@ -7,7 +7,7 @@ const clientId = '781139681569-g7o814qi9ng9q5u0i1lh8ikrhsmcpjcc.apps.googleuserc
 const clientSecret = 'r433uosSPAxVs_n1ezwJGOXg';
 const grantType = 'authorization_code';
 const redirectURI = 'urn:ietf:wg:oauth:2.0:oob';
-const jsURL = 'https://github.com/saranrajmcse/GDINDEX/worker.js';
+const jsURL = 'https://raw.githubusercontent.com/saranrajmcse/GDINDEX/main/scripts/worker.js';
 
 async function handleRequest(request) {
     let title = getParameterByName(request.url, 'site_name') || 'GD INDEX';
